@@ -2,85 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=>, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Annie+Use+Your+Telescope&family=Athiti:wght@200;300;400;500;600;700&family=Bentham&family=Indie+Flower&family=Patrick+Hand+SC&family=Playwrite+DE+Grund:wght@100..400&family=Poiret+One&family=Quicksand:wght@300..700&family=Zen+Loop:ital@0;1&display=swap" rel="stylesheet">
+    <meta name="viewport" initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Annie+Use+Your+Telescope&family=Athiti:wght@200;300;400;500;600;700&family=Bentham&family=Indie+Flower&family=Patrick+Hand+SC&family=Playwrite+DE+Grund:wght@100..400&family=Poiret+One&family=Quicksand:wght@300..700&family=Zen+Loop:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>Nature Cast Weather</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="app">
-    <header>
-      <h1>Nature Cast Weather</h1>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <hr />
-      <div>
-        <h1>City Name</h1>
-        <p>
-          Date Time, current Weather
-          <br />
-          Humidity, Wind
-        </p>
-      </div>
-      <div>
-        <h1>☀️ Temperature</h1>
-      </div>
-      <hr />
-      <div class="forecast">
-        <div class="day-cast">
-          <p>Day</p>
-          <br />
-          🍃
-          <br />
-          <p>High / Low</p>
+      <header>
+        <form>
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input class="search-btn" type="submit" value="🔍" />
+        </form>
+      </header>
+      <main>
+        <hr />
+        <div class="current-weather-headings">
+          <div>
+            <h1>Sydney</h1>
+          </div>
+          <div class="current-cond">
+            <h1>☀️ 20</h1>
+            <p class="degrees">°C</p>
+          </div>
         </div>
-        <div class="day-cast">
-          <p>Day</p>
-          <br />
-          🍃
-          <br />
-          <p>High / Low</p>
+        <div class="current-weather">
+          <div>
+            <p>Wednesday 22 August 2024</p>
+            <p>2.00pm</p>
+          </div>
+          <div>
+            <p>Current Weather</p>
+            <p>Humidity, Wind</p>
+          </div>
         </div>
-        <div class="day-cast">
-          <p>Day</p>
-          <br />
-          🍃
-          <br />
-          <p>High / Low</p>
+        <hr />
+        <div class="forecast">
+          <div class="day-cast">
+            <p>Day</p>
+            <br />
+            🍃
+            <br />
+            <p>High / Low</p>
+          </div>
+          <div class="day-cast">
+            <p>Day</p>
+            <br />
+            🍃
+            <br />
+            <p>High / Low</p>
+          </div>
+          <div class="day-cast">
+            <p>Day</p>
+            <br />
+            🍃
+            <br />
+            <p>High / Low</p>
+          </div>
+          <div class="day-cast">
+            <p>Day</p>
+            <br />
+            🍃
+            <br />
+            <p>High / Low</p>
+          </div>
+          <div class="day-cast">
+            <p>Day</p>
+            <br />
+            🍃
+            <br />
+            <p>High / Low</p>
+          </div>
         </div>
-        <div class="day-cast">
-          <p>Day</p>
-          <br />
-          🍃
-          <br />
-          <p>High / Low</p>
-        </div>
-        <div class="day-cast">
-          <p>Day</p>
-          <br />
-          🍃
-          <br />
-          <p>High / Low</p>
-        </div>
-      </div>
-      <hr />
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/vffounderling" target="_blank">Melanie Boyd</a
-      >, open sourced on
-      <a href="https://github.com/vffounderling/nature-cast" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://nature-cast.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
+        <hr />
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/vffounderling" target="_blank"
+          >Melanie Boyd</a
+        >, open sourced on
+        <a href="https://github.com/vffounderling/nature-cast" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://nature-cast.netlify.app/" target="_blank">Netlify</a>.
+      </footer>
     </div>
   </body>
 </html>

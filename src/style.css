@@ -1,12 +1,46 @@
 body {
-  background: #202c40;
-  opacity: 0.75;
+  background: #142d4c;
+}
+
+h1 {
+  font-family: "Zen Loop", serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+hr {
+  max-width: 100%;
+  margin: 20px 40px;
+  color: #142d4c;
+}
+
+p {
+  font-size: 30px;
+}
+
+footer {
+  font-size: 20px;
+  font-family: "Patrick Hand SC", serif;
+  color: #385170;
+}
+
+footer.a {
+  color: #a7bcb9;
+}
+
+a {
+  color: #a7bcb9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cadefc;
 }
 
 .app {
   background: white;
   margin: 40px 80px;
-  padding: 40px 80px;
+  padding: 40px 40px;
   border: solid white 2px;
   border-radius: 15px;
   box-shadow: 10px;
@@ -14,4 +48,72 @@ body {
   font-family: "Zen Loop", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 20px 40px;
+  margin: 5px;
+  background: #cadefc;
+  border: 2px solid #385170;
+  border-radius: 15px;
+  color: #142d4c;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Patrick Hand SC", serif;
+}
+
+.search-bar::placeholder {
+  color: #142d4c;
+}
+
+.search-btn {
+  max-width: 20%;
+  padding: 20px 20px;
+  margin: 5px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-family: "Patrick Hand SC", serif;
+}
+
+.search-btn:hover {
+  border: 2px solid #142d4c;
+  border-radius: 15px;
+  background: #cadefc;
+  cursor: pointer;
+  color: #142d4c;
+}
+
+/*need to fix alignment of headings to top*/
+
+.current-weather-headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.current-cond {
+  display: flex;
+  flex-direction: row;
+}
+
+.degrees {
+  margin-top: 45px;
 }
